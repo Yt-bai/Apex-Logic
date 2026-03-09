@@ -40,6 +40,8 @@ GROW模型与OKR目标管理法有些类似，都遵循SMART目标设定:S具体
 
 <img width="609" height="475" alt="image" src="https://github.com/user-attachments/assets/c422e443-2baf-4ea7-8d00-662bfee713b8" />
 
+
+
 **推荐几款常用工具：**
 
 <img width="1274" height="251" alt="image" src="https://github.com/user-attachments/assets/63c6befe-24ff-4743-acbf-445a01482558" />
