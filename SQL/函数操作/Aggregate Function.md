@@ -67,4 +67,11 @@ SELECT MAX(alexa) AS Max_alexa FROM Websites;
 
 ---
 
-# 
+# SUM() 计算总数
+查找 "access_log" 表的 "count" 字段的总数。
+
+```text
+SELECT SUM(count) AS total FROM access_log;
+```
+
+---
