@@ -54,6 +54,8 @@ ORDER BY ...
 - **WHERE：过滤原始行**
 - **HAVING：过滤分组后的结果**
 
+---
+
 执行顺序：
 **FROM -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY**
 **取表 -> 筛选原始行 -> 分组 -> 筛选组 -> 选择 -> 排序**
