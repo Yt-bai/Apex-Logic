@@ -36,3 +36,35 @@ SELECT COUNT(DISTINCT site_id) AS nums FROM access_log;
 ---
 
 # FIRST() 指定列中第一条记录的值
+只有MS Access支持FIRST()。
+
+*在My SQL中，选出Website表中成绩最好的学生姓名*
+```text
+SELECT stu AS BestStu FROM Websites
+ORDER BY grades DESC
+LIMIT 1;
+```
+
+---
+
+# LAST() 指定列中最后一条记录的值
+同样只有MS Access支持。
+
+*在My SQL中，找最低点击量的site_id*
+```text
+SELECT site_id FROM Websites
+ORDER BY count ASC
+LIMIT 1;
+```
+
+---
+
+# MAX() & MIN()
+*从 "Websites" 表的 "alexa" 列获取最大值*
+```text
+SELECT MAX(alexa) AS Max_alexa FROM Websites;
+```
+
+---
+
+# 
